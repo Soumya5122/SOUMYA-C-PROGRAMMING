@@ -1,3 +1,8 @@
+
+          PASS BY VALUE
+THE NUMBERS WILL BE AS IT IS PASSED TO THE INT MAIN AS THEY ARE PRESENT IN THE INT INPUT INT ADD AND OUTPUT.
+
+
 #include<stdio.h>
 int input()
 {
@@ -22,6 +27,8 @@ int main()
 {
   int a,b ,sum;
   input(a,b);
+  a=input();
+  b=input();
   sum=add(a,b);
   output(a,b,sum);
   return 0;
