@@ -8,21 +8,21 @@ int input()
   return a,b,c;
 }
 
-int average(int a,int b,int c)
+float average(float a,float b,float c)
 {
-  int avg;
-  avg=(a+b+c)/3;
+  float avg;
+  avg=(a+b+c)/3.0;
   return avg;
 }
 
-void output(int a,int b,int c,int result)
+void output(float a,float b,float c,float result)
 {
-  printf("the average of  %f + %f + %f/3 is %f\n",a,b,c,result);
+  printf("the average of  (%f + %f + %f)/3 is %f\n",a,b,c,result);
 }
 
 int main()
 {
-  int a,b,c,result;
+  float a,b,c,result;
   input(a,b,c);
   result=average(a,b,c);
   output(a,b,c,result);
