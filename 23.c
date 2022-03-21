@@ -1,31 +1,14 @@
-#include<stdio.h>
-#include<math.h>
-int input()
-{
-  float a,b,c;
-  printf("enter the three numbers\n");
-  scanf("%f,%f, %f\n",&a,&b,&c);
-  return a,b,c;
-}
 
-float average(float a,float b,float c)
+#include <stdio.h>
+#include <math.h>
+void main()
 {
-  float avg;
-  avg=(a+b+c)/3.0;
-  return avg;
-}
+	int n1,n2,n3;
+	float avg;
+	
+	printf("\nENTER THREE NUMBERS: " );
+	scanf("%d %d %d",&n1,&n2,&n3);
+	avg=(n1+n2+n3)/3;
+	printf("\nAVERAGE: %0.2f",avg);
 
-void output(float a,float b,float c,float result)
-{
-  printf("the average of  (%f + %f + %f)/3 is %f\n",a,b,c,result);
-}
-
-int main()
-{
-  float a,b,c,result;
-  input(a,b,c);
-  result=average(a,b,c);
-  output(a,b,c,result);
-  return 0;
-  
 }
