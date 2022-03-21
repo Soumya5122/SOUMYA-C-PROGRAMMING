@@ -1,2 +1,2 @@
 compile = ["make", "-s"]
-run = "gcc -g 23.c"
+run = "gcc -g 24.c"
