@@ -1,2 +1,2 @@
 compile = ["make", "-s"]
-run = "gcc -g 26.c"
+run = "gcc -g circle.c"
